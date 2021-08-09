@@ -1,0 +1,105 @@
+@use 'colors' as *;
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/bg-mobile.png") no-repeat center/cover;
+}
+
+.control-center {
+  background: $dark-blue;
+  padding: 2.8em 3em;
+  border-radius: 10px 100px 10px 10px;
+
+  .controls {
+    display: flex;
+    gap: 1.1rem;
+    margin-top: 2rem;
+    & > *:first-child {
+      padding: 0.8em 1em;
+    }
+    a {
+      background: $very-dark-blue;
+      padding: 1em 0.8em;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.storage-status {
+  position: relative;
+  text-align: center;
+  background: $dark-blue;
+  padding: 2.4em 2em 3.8em;
+  margin: 1rem 0;
+  border-radius: 10px;
+
+  .slider {
+    position: relative;
+    height: 20px;
+    margin: 1em 0 0.5em;
+    background: $very-dark-blue-v-2;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    .progress-bar {
+      position: relative;
+      width: 75%;
+      height: 75%;
+      transform: translateX(3px);
+      border-radius: 100px;
+      background: linear-gradient(90deg, $gradient-1, $gradient-2);
+      .thumb {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: $pale-blue;
+        position: absolute;
+        right: 2px;
+        top: 2.5px;
+      }
+    }
+  }
+
+  .storage-range {
+    display: flex;
+    font-weight: 700;
+    font-size: 0.75rem;
+    justify-content: space-between;
+  }
+
+  .free-space {
+    width: 56%;
+    max-width: 250px;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -23%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $very-dark-blue;
+    background: white;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 0.3em 0em;
+    span {
+      color: $grayish-blue;
+      margin-top: 5px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+}

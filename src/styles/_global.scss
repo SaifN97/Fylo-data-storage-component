@@ -1,3 +1,4 @@
+@use 'colors' as *;
 *,
 *::before,
 *::after {
@@ -9,4 +10,17 @@
 body {
   font-family: "Raleway", sans-serif;
   font-size: 0.875rem;
+  color: $pale-blue;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 87%;
+  max-width: 37.5rem;
+  margin: 0 auto;
 }
