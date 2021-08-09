@@ -12,5 +12,33 @@
     />
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="container">
+        <div class="control-center">
+          <img src="./images/logo.svg" alt="logo" />
+          <div class="controls">
+            <a aria-label="documents" href="#">
+              <img src="./images/bg-desktop.png" alt="" />
+            </a>
+            <a aria-label="folders" href="#">
+              <img src="./images/icon-folder.svg" alt="" />
+            </a>
+            <a aria-label="uploads" href="#">
+              <img src="./images/icon-upload.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="storage-status">
+          <div class="free-space">185 GB Left</div>
+          <h2>You’ve used 815 GB of your storage</h2>
+          <input type="range" />
+          <div class="storage-range">
+            <div class="start">0 GB</div>
+            <div class="end">1000 GB</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
