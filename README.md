@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-approach-using-node-sass-flexbox-and-parcelbundler-G3eqpcW8l)
+- Live Site URL: [Fylo data storage component](https://infallible-bose-7e9585.netlify.app/)
 
 ## My process
 
