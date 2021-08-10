@@ -2,8 +2,9 @@
 
 @media (min-width: 700px) {
   main {
-    background: url("../images/bg-desktop.png") no-repeat bottom center,
+    background: url("../images/bg-desktop.png") no-repeat bottom,
       $very-dark-blue;
+    background-size: contain;
   }
   .container {
     display: flex;

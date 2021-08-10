@@ -13,6 +13,7 @@ main {
   background: $dark-blue;
   padding: 2.8em 3em;
   border-radius: 10px 100px 10px 10px;
+  box-shadow: 0 15px 30px rgba($color: #000000, $alpha: 0.1);
 
   .controls {
     display: flex;
@@ -42,6 +43,7 @@ main {
   padding: 2.4em 2em 3.8em;
   margin: 1rem 0;
   border-radius: 10px;
+  box-shadow: 0 15px 30px rgba($color: #000000, $alpha: 0.1);
 
   .slider {
     position: relative;
